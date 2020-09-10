@@ -17,6 +17,8 @@ import sensor_msgs.msg
 from rosservice import ROSServiceException
 from slidewindow import SlideWindow
 from warper import Warper
+from ObstacleDetector import ObstacleDetector
+
 
 cv_image = np.array([])
 obstacles = None
@@ -26,6 +28,9 @@ pub = None
 slidewindow = SlideWindow()
 warper = Warper()
 bridge = CvBridge()
+obstacle = ObstacleDetector()
+
+
 
 def img_callback(data):
 	global cv_image
@@ -66,6 +71,7 @@ def main():
 	global pub
 	global cap
 	global w,h
+	global obstacles
 	rospy.sleep(3)
 	bridge = CvBridge()
 	
@@ -76,6 +82,8 @@ def main():
 	while not rospy.is_shutdown():
 		print(cv_image.shape)
 		img1, x_location = process_img(cv_image) 
+		obstacle_mode = obstacle.check(obstacles)
+		print(obstacle_mode)
 		cv2.imshow('a',img1)
 		if cv2.waitKey(1) & 0xFF == ord('q'):
 			break
