@@ -229,7 +229,8 @@ def start():
 
         center = (lpos + rpos) / 2
         angle = -(Width/2 - center)
-        drive(angle, 4)
+	print(angle)
+        drive(angle, 0)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

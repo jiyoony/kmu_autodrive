@@ -1,4 +1,4 @@
 Header header
-int32 angle
-int32 speed
+float32 angle
+float32 speed
 

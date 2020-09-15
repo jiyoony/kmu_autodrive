@@ -11,9 +11,10 @@ class ObstacleDetector:
 		self.steer_old = 0
 		self.left_list = []
 		self.right_list = []
+		self.p = 0
 	def check(self,obstacles):
 		for circle in obstacles.circles:
-			p = circle.center
+			self.p = circle.center
 			if len(self.left_list) > 10:
 				del self.left_list[0]
 			

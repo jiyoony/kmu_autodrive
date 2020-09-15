@@ -25,8 +25,8 @@ class SlideWindow:
 		window_height = 20
 		window_width = 50
 
-		minpix = window_height*window_width*0.05
-		n_windows = roi_width//window_width//2
+		minpix = window_height*window_width*0.07
+		n_windows = roi_width//2
 		pts_center = np.array([[roi_width//2,0],[roi_width//2, roi_height]], np.int32)
 		cv2.polylines(cf_img, [pts_center],False, (0,120,120),1)
 
@@ -43,7 +43,7 @@ class SlideWindow:
 		find_left = False
 		find_right = False
 
-		left_start_x = 0
+		left_start_x = 0 
 		left_start_y = 0
 
 		right_start_x = 0
@@ -100,7 +100,7 @@ class SlideWindow:
 				right_idx += 1
 
 
-			if left_start_x is not None and right_start_x is not None:
+			if find_left and find_right:
 				dist = right_start_x - left_start_x
 				self.center_old = np.int((right_start_x+left_start_x)/2)
 				if dist_threshold < dist and dist < dist_threshold + 80:
@@ -109,41 +109,54 @@ class SlideWindow:
 					cv2.circle(cf_img, (left_start_x, left_start_y), 3, (255,0,0),-1)
 					self.left_old = left_start_x
 					self.right_old = right_start_x
-					flag = 1
-					return True, left_start_x, right_start_x, cf_img, flag
+					
+					#return True, left_start_x, right_start_x, cf_img, flag
 				dist_from_old_L = abs(left_start_x - self.left_old)
 				dist_from_old_R = abs(right_start_x - self.right_old)
 
-				if dist_from_old_L < 70:
-					#print('flag = 2 ',dist)
-					self.center_old = left_start_x + 55
-					right_start_x = left_start_x+dist_threshold
+				if dist_from_old_L < 70 and dist_from_old_R < 70:
+					print('Find_Left & Find_Right & Dist_L & Dist_R')
+					self.center_old = np.int((left_start_x + right_start_x) / 2)
 					cv2.circle(cf_img,(left_start_x,left_start_y), 3, (0,0,255), -1)
-					cv2.circle(cf_img,(right_start_x,left_start_y), 3, (0,255,255), -1)
+					cv2.circle(cf_img,(right_start_x,right_start_y), 3, (0,255,255), -1)
 					self.left_old = left_start_x
 					self.right_old = right_start_x
 					flag =2
 					return True, left_start_x, right_start_x, cf_img, flag
 
-				else:
+				elif  dist_from_old_L < 70:
+					find_right = False
+					right_idx +=1
+					print('Find_Left & Find_Right & Dist_L')
 					#print('flag = 3 ',dist)
-					self.center_old = right_start_x - 55
-					left_start_x = right_start_x - dist_threshold
-					cv2.circle(cf_img,(right_start_x,right_start_y), 3, (0,0,255), -1)
-					cv2.circle(cf_img,(left_start_x,right_start_y), 3, (0,255,255), -1)
+					self.center_old = left_start_x + dist_threshold//2
+					right_start_x = left_start_x + dist_threshold
+					cv2.circle(cf_img,(right_start_x,left_start_y), 3, (0,0,255), -1)
+					cv2.circle(cf_img,(left_start_x,left_start_y), 3, (0,255,255), -1)
 					self.left_old = left_start_x
 					self.right_old = right_start_x
 					flag = 3
 					return True, left_start_x, right_start_x, cf_img, flag
+				elif dist_from_old_R < 70:
+					find_left = False
+					left_idx +=1
+					print('Find_Left & Find_Right & Dist_R')
+					self.center_old = right_start_x - dist_threshold//2
+					left_start_x = right_start_x - dist_threshold
+					cv2.circle(cf_img,(right_start_x,right_start_y), 3, (0,0,255), -1)
+					cv2.circle(cf_img,(left_start_x,right_start_y), 3, (0,255,255), -1)
+					return True, left_start_x, right_start_x, cf_img, flag
 
-			elif left_start_x is not None:
+			elif find_left:
+				right_idx +=1
 				dist_from_center = self.center_old - left_start_x
 				dist_from_old = abs(left_start_x - self.left_old)
 				#print('flag = 2 ',dist_from_center)
 				#print('flag = 2 ',dist_from_old)
 
-				if dist_from_center>30 and dist_from_old < 70 :
-					self.center_old = left_start_x + 55
+				if dist_from_center>50 and dist_from_old < 70 :
+					self.center_old = left_start_x + dist_threshold//2
+					print('Find_Left & Dist_Center & Dist_Old')
 					right_start_x = left_start_x+dist_threshold
 					cv2.circle(cf_img,(left_start_x,left_start_y), 3, (0,0,255), -1)
 					cv2.circle(cf_img,(right_start_x,left_start_y), 3, (0,255,255), -1)
@@ -152,25 +165,27 @@ class SlideWindow:
 					flag =2
 					return True, left_start_x, right_start_x, cf_img, flag
 
-			elif right_start_x is not None:
+			elif find_right:
+				print('Find_Right & Dist_Center & Dist_Old')
+				find_left = False
+				left_idx +=1
 				dist_from_center = right_start_x - self.center_old
 				dist_from_old = abs(right_start_x - self.right_old)
 				#print('flag = 3 ',dist_from_center)
 				#print('flag = 3 ',dist_from_old)
-				if dist_from_center>30 and dist_from_old < 70:
-					self.center_old = right_start_x - 55
+				if dist_from_center>50 and dist_from_old < 70:
+					self.center_old = right_start_x - dist_threshold//2
 					left_start_x = right_start_x - dist_threshold
-					cv2.circle(cf_img,(right_start_x,right_start_y), 3, (0,0,255), -1)
+					cv2.circle(cf_img,(right_start_x,right_start_y), 3, (255,0,0), -1)
 					cv2.circle(cf_img,(left_start_x,right_start_y), 3, (0,255,255), -1)
 					self.left_old = left_start_x
 					self.right_old = right_start_x
 					flag =3
 					return True, left_start_x, right_start_x, cf_img, flag
-
-		return False, left_start_x, right_start_x, cf_img,flag
+		print('False')
+		return False, self.left_old, self.right_old, cf_img,flag
 
 	def h_slidewindow(self, img, x_left_start, x_right_start, flag):
-		centerY =240
 		h, w = img.shape
 		output_img = np.dstack((img,img,img))
 		nonzero = img.nonzero()
@@ -181,10 +196,10 @@ class SlideWindow:
 		y_start = h/2 + 140
 		window_height = 30
 		window_width = 40
-
+		dist_threshold = 340
 		find_left = False
 		find_right = False
-
+		center_point = 320
 		minpix = window_width * window_height / 30
 		n_windows = 5
 		# print('nwindows',n_windows)
@@ -218,13 +233,13 @@ class SlideWindow:
 			    x_right = np.int(np.mean(nonzerox[good_right_inds]))
 			else:
 				find_right = False
-			center_point = 10
+
 			if find_left and find_right:
 				center_point = np.int((x_left +x_right)/2)
 			elif find_left:
-				center_point = x_left + 170
+				center_point = x_left + dist_threshold//2
 			elif find_right:
-				center_point = x_right - 170
+				center_point = x_right - dist_threshold//2
 		
 			if i < 5:
 			    # center[i] = np.array([center_point,y_start - i*window_height - 10])
@@ -242,14 +257,14 @@ class SlideWindow:
 
 		for i in range(5):
 			cv2.circle(output_img,(returns_x[i],center_y[i]),3,(0,0,255),-1)
-		cv2.circle(output_img,(center_x[0],center_y[0]),9,(255,50,0),-1)
+		cv2.circle(output_img,(center_x[0],0),9,(255,50,0),)
 
 		# steer_theta=math.degrees(math.atan((center_x[0]-returns_x[size_center-1] )/(center_y[size_center-1]-center_y[0])))
-		steer_theta=math.degrees(math.atan((240-returns_x[size_center-1] )/(center_y[size_center-1]-295)))
-		cv2.line(output_img,(240,295),(returns_x[size_center-1],center_y[size_center-1]),(0,255,255))
+		steer_theta=math.degrees(math.atan((320-returns_x[size_center-1] )/(center_y[size_center-1])))
+		cv2.line(output_img,(320,0 ),(returns_x[size_center-1],center_y[size_center-1]),(0,255,255))
 			# line_fitter.fit(center.reshape(-1,1),center_y)
 		# y_predicted = line_fitter.predict(center_x)
 		centerY = center_y[-1]
 		
-		#print('steer : ',steer_theta)
+		print('steer : ',steer_theta)
 		return output_img ,steer_theta, centerY
