@@ -37,6 +37,7 @@ bridge = CvBridge()
 pid = PidCal()
 curve = CurveDetector()
 avoid = Obstacle_avoid()
+stop_detector= StopDetector()
 parking = Parking()
 time_old = 0
 max_=0
@@ -98,13 +99,13 @@ def houghStop(img):
 				status = True
 
 			cv2.line(roi,(x1,y1),(x2,y2),(0,0,255))
-	#cv2.imshow('img',roi)
-	#cv2.imshow('edge', edges)
+	cv2.imshow('img',roi)
+	cv2.imshow('edge', edges)
 	return status
 
 def process_img(img):
-	#cv2.imshow('org',img)
-	#cv2.waitKey(1)
+	cv2.imshow('org',img)
+	cv2.waitKey(1)
 	cols,rows,ch = img.shape
 	brightness =np.sum(img)/(255*cols*rows)
 	minimum_brightness = 0.5
@@ -122,6 +123,8 @@ def process_img(img):
 	warped_2 = warper.warp(img)
 	roi = warped[150:450, :]
 	h_slide_img,x_location= slidewindow.slidewindow(warped)
+	stop_detector.check_cross_walk(warped)
+	stop_detector.check_yellow_line(warp_img)
 	#stop_flag = 0
 	return h_slide_img, x_location,warped
 
@@ -179,18 +182,16 @@ def main():
 	obstacle_sub = rospy.Subscriber("/obstacles", Obstacles, obstacle_callback, queue_size = 1)
 	while time.time()-start_time <3:
 		auto_drive(0,0)
-	car_run_speed = 8
+	car_run_speed = 10
 	#car_run_speed = 0
-	while not rospy.is_shutdown():
-		print('fuck_cnt :', curve.fuck)
-		print('fucking time: ',time.time() - curve.initTime_old)	
+	time.sleep(3)
+	while not rospy.is_shutdown():	
 		#a = houghStop(cv_image)
 		#if p_old_time == 0:
 		#	p_old_time = time.time()
 		#p_now_time = time.time()
 		#if (p_now_time - p_old_time > 12.9):
 		#	park_mode = 1
-		'''
 		if park_mode == 1:
 			steer, car_run_speed = parking.execute(obstacles)
 			auto_drive(steer,car_run_speed)
@@ -201,17 +202,17 @@ def main():
 				steer = pid.pid_control(x_location)
 				auto_drive(steer,car_run_speed)	
 		else:
-		'''
-		if True:
 			if cv_image is not None:
 				process_Img, x_location,warp = process_img(cv_image)
 				steer = pid.pid_control(x_location)
+				a = houghStop(cv_image)
+				print(a)
 				#print("STEER : ",steer)
-				print("count_curve", curve.curve_count)
+				#print("count_curve", curve.curve_count)
 				#print("LabCNT : ", lab_cnt)
 			
 				if curve.curve_count == 0:
-					#car_run_speed = 10
+					#car_run_speed = 8
 					#if car_run_speed+0.3 < 9.5:
 					#	car_run_speed+=0.15
 					curve.list_update(steer)
@@ -220,9 +221,9 @@ def main():
 				#	if speed < 8:
 					curve.list_update(steer)
 					curve.count_curve()
-				#	car_run_speed = 7
-				elif curve.curve_count == 2:
 					car_run_speed = 7
+				elif curve.curve_count == 2:
+					#car_run_speed = 7
 					if check_LR() == 'right':
 						car_run_speed =4
 						while not avoid.Isflag or avoid.flag !=3:
@@ -235,30 +236,28 @@ def main():
 							steer = avoid.avoid_LRL(obstacles)
 							auto_drive(steer,car_run_speed)
 						curve.curve_count +=1
-				elif curve.curve_count ==3:
-					car_run_speed = 7
-					curve.list_update(steer)
-					curve.count_curve()
-				elif curve.curve_count >= 5:
-					curve.curve_count = 0
-					avoid.mode = 0
-					avoid.flag = 0
-					avoid.steer = 0
-					avoid.old = 0
-					car_run_speed =8
-					avoid.now = 0
-					avoid.Isflag = False
-					lab_cnt +=1
-					curve.initFlag = True
-					curve.initTime_old = time.time()
-				else:
-					car_run_speed = 8
-					curve.list_update(steer)
-					curve.count_curve()
-
-
-				#if lab_cnt == 3:
-				#	park_mode = 1
+				elif curve.curve_count == 3:
+					#car_run_speed = 8
+					flag = houghStop(cv_image)
+					if flag == True:
+						auto_drive(0,0)
+						time.sleep(5)
+						stop_cnt += 1
+						curve.curve_count +=1
+				elif curve.curve_count ==4:
+					flag = houghStop(cv_image)
+					if flag == True:						
+						curve.curve_count = 0
+						avoid.mode = 0
+						avoid.flag = 0
+						avoid.steer = 0
+						avoid.old = 0
+						avoid.now = 0
+						avoid.Isflag = False
+						lab_cnt +=1
+					
+				if lab_cnt == 3:
+					park_mode = 1
 				#print('curve`s sum',abs(sum(curve.pid_list)))
 				#print("pid_steer : ", steer)
 				#print(x_location)
@@ -270,7 +269,7 @@ def main():
 				auto_drive(steer,car_run_speed)
 				#if speed < 10:
 				#	speed +=0.1
-				print('------------------------------')
+	
 	#plt.plot(curve.pid_sum_list)
 	#plt.show()
 	#cap.release()

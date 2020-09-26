@@ -1,0 +1,7 @@
+<launch>
+
+
+  <!-- auto drive -->
+  <node name="auto_drive" pkg="race" type="only_drive.py" output="screen"/>
+
+</launch>

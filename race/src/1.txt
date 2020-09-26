@@ -1,0 +1,1443 @@
+('XL : ', 134, '         XR : ', 496, '  X Location : ', 309)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.2185)
+('SPEED : ', 3)
+   
+('XL : ', 134, '         XR : ', 496, '  X Location : ', 309)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.1235)
+('SPEED : ', 3.03)
+   
+('XL : ', 134, '         XR : ', 496, '  X Location : ', 309)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.1235)
+('SPEED : ', 3.0599999999999996)
+   
+('XL : ', 134, '         XR : ', 496, '  X Location : ', 309)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.1235)
+('SPEED : ', 3.0899999999999994)
+   
+('XL : ', 135, '         XR : ', 497, '  X Location : ', 310)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.112)
+('SPEED : ', 3.119999999999999)
+   
+('XL : ', 139, '         XR : ', 498, '  X Location : ', 314)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.071)
+('SPEED : ', 3.149999999999999)
+   
+('XL : ', 141, '         XR : ', 498, '  X Location : ', 316)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.068)
+('SPEED : ', 3.179999999999999)
+   
+('XL : ', 144, '         XR : ', 498, '  X Location : ', 319)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.043500000000000004)
+('SPEED : ', 3.2099999999999986)
+   
+('XL : ', 145, '         XR : ', 498, '  X Location : ', 320)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.047)
+('SPEED : ', 3.2399999999999984)
+   
+('XL : ', 145, '         XR : ', 498, '  X Location : ', 320)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.052)
+('SPEED : ', 3.2699999999999982)
+   
+('XL : ', 145, '         XR : ', 498, '  X Location : ', 320)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.052)
+('SPEED : ', 3.299999999999998)
+   
+('XL : ', 150, '         XR : ', 496, '  X Location : ', 321)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0405)
+('SPEED : ', 3.329999999999998)
+   
+('XL : ', 151, '         XR : ', 497, '  X Location : ', 322)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.034)
+('SPEED : ', 3.3599999999999977)
+   
+('XL : ', 153, '         XR : ', 496, '  X Location : ', 321)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.050499999999999996)
+('SPEED : ', 3.3899999999999975)
+   
+('XL : ', 156, '         XR : ', 497, '  X Location : ', 322)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.034)
+('SPEED : ', 3.4199999999999973)
+   
+('XL : ', 156, '         XR : ', 498, '  X Location : ', 323)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0275)
+('SPEED : ', 3.449999999999997)
+   
+('XL : ', 157, '         XR : ', 498, '  X Location : ', 323)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0325)
+('SPEED : ', 3.479999999999997)
+   
+('XL : ', 157, '         XR : ', 500, '  X Location : ', 325)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0095)
+('SPEED : ', 3.5099999999999967)
+   
+('XL : ', 157, '         XR : ', 500, '  X Location : ', 325)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0195)
+('SPEED : ', 3.5399999999999965)
+   
+('XL : ', 152, '         XR : ', 509, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0035000000000000005)
+('SPEED : ', 3.5699999999999963)
+   
+('XL : ', 152, '         XR : ', 511, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 3.599999999999996)
+   
+('XL : ', 152, '         XR : ', 511, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 3.629999999999996)
+   
+('XL : ', 151, '         XR : ', 512, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.018)
+('SPEED : ', 3.6599999999999957)
+   
+('XL : ', 152, '         XR : ', 512, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0014999999999999996)
+('SPEED : ', 3.6899999999999955)
+   
+('XL : ', 152, '         XR : ', 512, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 3.7199999999999953)
+   
+('XL : ', 152, '         XR : ', 512, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 3.749999999999995)
+   
+('XL : ', 152, '         XR : ', 513, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 3.779999999999995)
+   
+('XL : ', 152, '         XR : ', 513, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 3.8099999999999947)
+   
+('XL : ', 154, '         XR : ', 511, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0165)
+('SPEED : ', 3.8399999999999945)
+   
+('XL : ', 157, '         XR : ', 512, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.040999999999999995)
+('SPEED : ', 3.8699999999999943)
+   
+('XL : ', 158, '         XR : ', 510, '  X Location : ', 333)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0375)
+('SPEED : ', 3.899999999999994)
+   
+('XL : ', 156, '         XR : ', 510, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0095)
+('SPEED : ', 3.929999999999994)
+   
+('XL : ', 156, '         XR : ', 509, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 3.9599999999999937)
+   
+('XL : ', 154, '         XR : ', 510, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0035000000000000005)
+('SPEED : ', 3.9899999999999936)
+   
+('XL : ', 152, '         XR : ', 510, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0165)
+('SPEED : ', 4.019999999999993)
+   
+('XL : ', 152, '         XR : ', 510, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 4.049999999999994)
+   
+('XL : ', 151, '         XR : ', 509, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.018)
+('SPEED : ', 4.079999999999994)
+   
+('XL : ', 151, '         XR : ', 511, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.013)
+('SPEED : ', 4.109999999999994)
+   
+('XL : ', 150, '         XR : ', 512, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0245)
+('SPEED : ', 4.139999999999994)
+   
+('XL : ', 149, '         XR : ', 511, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.031)
+('SPEED : ', 4.169999999999995)
+   
+('XL : ', 151, '         XR : ', 511, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.002999999999999999)
+('SPEED : ', 4.199999999999995)
+   
+('XL : ', 150, '         XR : ', 512, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0245)
+('SPEED : ', 4.229999999999995)
+   
+('XL : ', 151, '         XR : ', 513, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.008)
+('SPEED : ', 4.259999999999995)
+   
+('XL : ', 151, '         XR : ', 513, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.013)
+('SPEED : ', 4.289999999999996)
+   
+('XL : ', 149, '         XR : ', 515, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.036)
+('SPEED : ', 4.319999999999996)
+   
+('XL : ', 149, '         XR : ', 516, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 4.349999999999996)
+   
+('XL : ', 149, '         XR : ', 517, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 4.379999999999996)
+   
+('XL : ', 151, '         XR : ', 517, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.002999999999999999)
+('SPEED : ', 4.409999999999997)
+   
+('XL : ', 153, '         XR : ', 517, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.01)
+('SPEED : ', 4.439999999999997)
+   
+('XL : ', 154, '         XR : ', 518, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0115)
+('SPEED : ', 4.469999999999997)
+   
+('XL : ', 155, '         XR : ', 520, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.018)
+('SPEED : ', 4.499999999999997)
+   
+('XL : ', 155, '         XR : ', 521, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.013)
+('SPEED : ', 4.529999999999998)
+   
+('XL : ', 153, '         XR : ', 519, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.01)
+('SPEED : ', 4.559999999999998)
+   
+('XL : ', 152, '         XR : ', 519, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0115)
+('SPEED : ', 4.589999999999998)
+   
+('XL : ', 152, '         XR : ', 520, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 4.619999999999998)
+   
+('XL : ', 152, '         XR : ', 520, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 4.649999999999999)
+   
+('XL : ', 152, '         XR : ', 520, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 4.679999999999999)
+   
+('XL : ', 153, '         XR : ', 521, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.005)
+('SPEED : ', 4.709999999999999)
+   
+('XL : ', 154, '         XR : ', 522, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0115)
+('SPEED : ', 4.739999999999999)
+   
+('XL : ', 153, '         XR : ', 523, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.005)
+('SPEED : ', 4.77)
+   
+('XL : ', 153, '         XR : ', 521, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0)
+('SPEED : ', 4.8)
+   
+('XL : ', 152, '         XR : ', 522, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0115)
+('SPEED : ', 4.83)
+   
+('XL : ', 152, '         XR : ', 523, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 4.86)
+   
+('XL : ', 154, '         XR : ', 522, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0165)
+('SPEED : ', 4.890000000000001)
+   
+('XL : ', 154, '         XR : ', 524, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0065)
+('SPEED : ', 4.920000000000001)
+   
+('XL : ', 156, '         XR : ', 523, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0295)
+('SPEED : ', 4.950000000000001)
+   
+('XL : ', 157, '         XR : ', 523, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.031)
+('SPEED : ', 4.980000000000001)
+   
+('XL : ', 157, '         XR : ', 523, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.026)
+('SPEED : ', 5.010000000000002)
+   
+('XL : ', 158, '         XR : ', 523, '  X Location : ', 333)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0375)
+('SPEED : ', 5.040000000000002)
+   
+('XL : ', 157, '         XR : ', 523, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.020999999999999998)
+('SPEED : ', 5.070000000000002)
+   
+('XL : ', 157, '         XR : ', 524, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.026)
+('SPEED : ', 5.100000000000002)
+   
+('XL : ', 157, '         XR : ', 523, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.026)
+('SPEED : ', 5.130000000000003)
+   
+('XL : ', 156, '         XR : ', 523, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.014499999999999999)
+('SPEED : ', 5.160000000000003)
+   
+('XL : ', 156, '         XR : ', 523, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 5.190000000000003)
+   
+('XL : ', 155, '         XR : ', 521, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.008)
+('SPEED : ', 5.220000000000003)
+   
+('XL : ', 154, '         XR : ', 523, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0014999999999999996)
+('SPEED : ', 5.2500000000000036)
+   
+('XL : ', 153, '         XR : ', 523, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.005)
+('SPEED : ', 5.280000000000004)
+   
+('XL : ', 151, '         XR : ', 524, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.023)
+('SPEED : ', 5.310000000000004)
+   
+('XL : ', 150, '         XR : ', 523, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0245)
+('SPEED : ', 5.340000000000004)
+   
+('XL : ', 150, '         XR : ', 523, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0195)
+('SPEED : ', 5.3700000000000045)
+   
+('XL : ', 150, '         XR : ', 525, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0195)
+('SPEED : ', 5.400000000000005)
+   
+('XL : ', 152, '         XR : ', 523, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0035000000000000005)
+('SPEED : ', 5.430000000000005)
+   
+('XL : ', 153, '         XR : ', 522, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.005)
+('SPEED : ', 5.460000000000005)
+   
+('XL : ', 154, '         XR : ', 523, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0115)
+('SPEED : ', 5.4900000000000055)
+   
+('XL : ', 156, '         XR : ', 525, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0295)
+('SPEED : ', 5.520000000000006)
+   
+('XL : ', 157, '         XR : ', 527, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.031)
+('SPEED : ', 5.550000000000006)
+   
+('XL : ', 156, '         XR : ', 527, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.014499999999999999)
+('SPEED : ', 5.580000000000006)
+   
+('XL : ', 156, '         XR : ', 526, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 5.6100000000000065)
+   
+('XL : ', 156, '         XR : ', 526, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 5.640000000000007)
+   
+('XL : ', 155, '         XR : ', 525, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.008)
+('SPEED : ', 5.670000000000007)
+   
+('XL : ', 155, '         XR : ', 525, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.013)
+('SPEED : ', 5.700000000000007)
+   
+('XL : ', 156, '         XR : ', 524, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0245)
+('SPEED : ', 5.7300000000000075)
+   
+('XL : ', 157, '         XR : ', 523, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.031)
+('SPEED : ', 5.760000000000008)
+   
+('XL : ', 156, '         XR : ', 522, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.014499999999999999)
+('SPEED : ', 5.790000000000008)
+   
+('XL : ', 156, '         XR : ', 524, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 5.820000000000008)
+   
+('XL : ', 154, '         XR : ', 523, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0035000000000000005)
+('SPEED : ', 5.8500000000000085)
+   
+('XL : ', 156, '         XR : ', 523, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0295)
+('SPEED : ', 5.880000000000009)
+   
+('XL : ', 157, '         XR : ', 523, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.031)
+('SPEED : ', 5.910000000000009)
+   
+('XL : ', 158, '         XR : ', 523, '  X Location : ', 333)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0375)
+('SPEED : ', 5.940000000000009)
+   
+('XL : ', 159, '         XR : ', 524, '  X Location : ', 334)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.044)
+('SPEED : ', 5.9700000000000095)
+   
+('XL : ', 161, '         XR : ', 522, '  X Location : ', 336)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.062)
+('SPEED : ', 6.00000000000001)
+   
+('XL : ', 161, '         XR : ', 522, '  X Location : ', 336)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.052)
+('SPEED : ', 6.03000000000001)
+   
+('XL : ', 158, '         XR : ', 522, '  X Location : ', 333)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0175)
+('SPEED : ', 6.06000000000001)
+   
+('XL : ', 157, '         XR : ', 521, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.020999999999999998)
+('SPEED : ', 6.0900000000000105)
+   
+('XL : ', 157, '         XR : ', 521, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.026)
+('SPEED : ', 6.120000000000011)
+   
+('XL : ', 154, '         XR : ', 519, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0085)
+('SPEED : ', 6.150000000000011)
+   
+('XL : ', 154, '         XR : ', 517, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0065)
+('SPEED : ', 6.180000000000011)
+   
+('XL : ', 154, '         XR : ', 515, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0065)
+('SPEED : ', 6.2100000000000115)
+   
+('XL : ', 153, '         XR : ', 514, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.005)
+('SPEED : ', 6.240000000000012)
+   
+('XL : ', 154, '         XR : ', 512, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0115)
+('SPEED : ', 6.270000000000012)
+   
+('XL : ', 152, '         XR : ', 513, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0165)
+('SPEED : ', 6.300000000000012)
+   
+('XL : ', 153, '         XR : ', 513, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.005)
+('SPEED : ', 6.3300000000000125)
+   
+('XL : ', 154, '         XR : ', 514, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0115)
+('SPEED : ', 6.360000000000013)
+   
+('XL : ', 154, '         XR : ', 514, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0065)
+('SPEED : ', 6.390000000000013)
+   
+('XL : ', 154, '         XR : ', 513, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0065)
+('SPEED : ', 6.420000000000013)
+   
+('XL : ', 156, '         XR : ', 512, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0295)
+('SPEED : ', 6.4500000000000135)
+   
+('XL : ', 154, '         XR : ', 515, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0035000000000000005)
+('SPEED : ', 6.480000000000014)
+   
+('XL : ', 152, '         XR : ', 514, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0165)
+('SPEED : ', 6.510000000000014)
+   
+('XL : ', 151, '         XR : ', 513, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.018)
+('SPEED : ', 6.540000000000014)
+   
+('XL : ', 149, '         XR : ', 514, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.036)
+('SPEED : ', 6.5700000000000145)
+   
+('XL : ', 149, '         XR : ', 514, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 6.600000000000015)
+   
+('XL : ', 147, '         XR : ', 515, '  X Location : ', 322)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.049)
+('SPEED : ', 6.630000000000015)
+   
+('XL : ', 144, '         XR : ', 518, '  X Location : ', 319)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.07350000000000001)
+('SPEED : ', 6.660000000000015)
+   
+('XL : ', 146, '         XR : ', 524, '  X Location : ', 321)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0355)
+('SPEED : ', 6.6900000000000155)
+   
+('XL : ', 146, '         XR : ', 521, '  X Location : ', 321)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0455)
+('SPEED : ', 6.720000000000016)
+   
+('XL : ', 148, '         XR : ', 523, '  X Location : ', 323)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0225)
+('SPEED : ', 6.750000000000016)
+   
+('XL : ', 149, '         XR : ', 523, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.020999999999999998)
+('SPEED : ', 6.780000000000016)
+   
+('XL : ', 149, '         XR : ', 523, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 6.8100000000000165)
+   
+('XL : ', 149, '         XR : ', 524, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 6.840000000000017)
+   
+('XL : ', 147, '         XR : ', 521, '  X Location : ', 322)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.049)
+('SPEED : ', 6.870000000000017)
+   
+('XL : ', 107, '         XR : ', 481, '  X Location : ', 306)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.22299999999999998)
+('SPEED : ', 6.900000000000017)
+   
+('XL : ', 109, '         XR : ', 479, '  X Location : ', 304)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.166)
+('SPEED : ', 6.9300000000000175)
+   
+('XL : ', 108, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1675)
+('SPEED : ', 6.960000000000018)
+   
+('XL : ', 108, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1625)
+('SPEED : ', 6.990000000000018)
+   
+('XL : ', 106, '         XR : ', 477, '  X Location : ', 302)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.17400000000000002)
+('SPEED : ', 7.020000000000018)
+   
+('XL : ', 106, '         XR : ', 477, '  X Location : ', 302)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.169)
+('SPEED : ', 7.0500000000000185)
+   
+('XL : ', 105, '         XR : ', 479, '  X Location : ', 304)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.146)
+('SPEED : ', 7.080000000000019)
+   
+('XL : ', 106, '         XR : ', 482, '  X Location : ', 307)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.12150000000000001)
+('SPEED : ', 7.110000000000019)
+   
+('XL : ', 151, '         XR : ', 481, '  X Location : ', 306)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.148)
+('SPEED : ', 7.140000000000019)
+   
+('XL : ', 153, '         XR : ', 483, '  X Location : ', 308)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.12000000000000001)
+('SPEED : ', 7.1700000000000195)
+   
+('XL : ', 155, '         XR : ', 480, '  X Location : ', 305)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.16449999999999998)
+('SPEED : ', 7.20000000000002)
+   
+('XL : ', 154, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.17250000000000001)
+('SPEED : ', 7.23000000000002)
+   
+('XL : ', 154, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1625)
+('SPEED : ', 7.26000000000002)
+   
+('XL : ', 152, '         XR : ', 476, '  X Location : ', 301)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1855)
+('SPEED : ', 7.2900000000000205)
+   
+('XL : ', 151, '         XR : ', 471, '  X Location : ', 296)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.23299999999999998)
+('SPEED : ', 7.320000000000021)
+   
+('XL : ', 151, '         XR : ', 467, '  X Location : ', 292)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.254)
+('SPEED : ', 7.350000000000021)
+   
+('XL : ', 152, '         XR : ', 470, '  X Location : ', 295)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1995)
+('SPEED : ', 7.380000000000021)
+   
+('XL : ', 153, '         XR : ', 471, '  X Location : ', 296)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.20299999999999999)
+('SPEED : ', 7.4100000000000215)
+   
+('XL : ', 153, '         XR : ', 471, '  X Location : ', 296)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.208)
+('SPEED : ', 7.440000000000022)
+   
+('XL : ', 154, '         XR : ', 475, '  X Location : ', 300)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.162)
+('SPEED : ', 7.470000000000022)
+   
+('XL : ', 155, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.14750000000000002)
+('SPEED : ', 7.500000000000022)
+   
+('XL : ', 157, '         XR : ', 481, '  X Location : ', 306)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.128)
+('SPEED : ', 7.5300000000000225)
+   
+('XL : ', 159, '         XR : ', 477, '  X Location : ', 302)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.189)
+('SPEED : ', 7.560000000000023)
+   
+('XL : ', 159, '         XR : ', 477, '  X Location : ', 302)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.169)
+('SPEED : ', 7.590000000000023)
+   
+('XL : ', 138, '         XR : ', 477, '  X Location : ', 313)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0425)
+('SPEED : ', 7.620000000000023)
+   
+('XL : ', 137, '         XR : ', 477, '  X Location : ', 312)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.109)
+('SPEED : ', 7.6500000000000234)
+   
+('XL : ', 134, '         XR : ', 477, '  X Location : ', 309)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.1385)
+('SPEED : ', 7.680000000000024)
+   
+('XL : ', 132, '         XR : ', 477, '  X Location : ', 307)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.14650000000000002)
+('SPEED : ', 7.710000000000024)
+   
+('XL : ', 132, '         XR : ', 477, '  X Location : ', 307)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.1365)
+('SPEED : ', 7.740000000000024)
+   
+('XL : ', 153, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1825)
+('SPEED : ', 7.770000000000024)
+   
+('XL : ', 153, '         XR : ', 478, '  X Location : ', 303)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1625)
+('SPEED : ', 7.800000000000025)
+   
+('XL : ', 125, '         XR : ', 478, '  X Location : ', 300)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.197)
+('SPEED : ', 7.830000000000025)
+   
+('XL : ', 122, '         XR : ', 478, '  X Location : ', 297)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.21650000000000003)
+('SPEED : ', 7.860000000000025)
+   
+('XL : ', 146, '         XR : ', 467, '  X Location : ', 292)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.259)
+('SPEED : ', 7.890000000000025)
+   
+('XL : ', 118, '         XR : ', 467, '  X Location : ', 293)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.2225)
+('SPEED : ', 7.920000000000026)
+   
+('XL : ', 118, '         XR : ', 467, '  X Location : ', 293)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.2275)
+('SPEED : ', 7.950000000000026)
+   
+('XL : ', 115, '         XR : ', 467, '  X Location : ', 290)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.262)
+('SPEED : ', 7.980000000000026)
+   
+('XL : ', 143, '         XR : ', 467, '  X Location : ', 292)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.224)
+('SPEED : ', 8.010000000000026)
+   
+('XL : ', 113, '         XR : ', 467, '  X Location : ', 288)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.28)
+('SPEED : ', 8.040000000000026)
+   
+('XL : ', 113, '         XR : ', 467, '  X Location : ', 288)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.26)
+('SPEED : ', 8.070000000000025)
+   
+('XL : ', 142, '         XR : ', 472, '  X Location : ', 297)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.15650000000000003)
+('SPEED : ', 8.100000000000025)
+   
+('XL : ', 142, '         XR : ', 472, '  X Location : ', 297)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.2015)
+('SPEED : ', 8.130000000000024)
+   
+('XL : ', 112, '         XR : ', 472, '  X Location : ', 287)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.3165)
+('SPEED : ', 8.160000000000023)
+   
+('XL : ', 114, '         XR : ', 472, '  X Location : ', 289)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.2435)
+('SPEED : ', 8.190000000000023)
+   
+('XL : ', 115, '         XR : ', 472, '  X Location : ', 290)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.242)
+('SPEED : ', 8.220000000000022)
+   
+('XL : ', 116, '         XR : ', 472, '  X Location : ', 291)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.2355)
+('SPEED : ', 8.250000000000021)
+   
+('XL : ', 115, '         XR : ', 472, '  X Location : ', 290)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.252)
+('SPEED : ', 8.28000000000002)
+   
+('XL : ', 118, '         XR : ', 472, '  X Location : ', 293)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.21250000000000002)
+('SPEED : ', 8.31000000000002)
+   
+('XL : ', 120, '         XR : ', 472, '  X Location : ', 295)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.2045)
+('SPEED : ', 8.34000000000002)
+   
+('XL : ', 124, '         XR : ', 472, '  X Location : ', 299)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.1685)
+('SPEED : ', 8.370000000000019)
+   
+('XL : ', 127, '         XR : ', 472, '  X Location : ', 302)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.15400000000000003)
+('SPEED : ', 8.400000000000018)
+   
+('XL : ', 131, '         XR : ', 472, '  X Location : ', 306)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.12299999999999998)
+('SPEED : ', 8.430000000000017)
+   
+('XL : ', 151, '         XR : ', 462, '  X Location : ', 287)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.36150000000000004)
+('SPEED : ', 8.460000000000017)
+   
+('XL : ', 136, '         XR : ', 462, '  X Location : ', 311)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.009499999999999995)
+('SPEED : ', 8.490000000000016)
+   
+('XL : ', 137, '         XR : ', 462, '  X Location : ', 312)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.09899999999999999)
+('SPEED : ', 8.520000000000016)
+   
+('XL : ', 137, '         XR : ', 462, '  X Location : ', 312)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.104)
+('SPEED : ', 8.550000000000015)
+   
+('XL : ', 153, '         XR : ', 471, '  X Location : ', 296)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.288)
+('SPEED : ', 8.580000000000014)
+   
+('XL : ', 154, '         XR : ', 476, '  X Location : ', 301)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1505)
+('SPEED : ', 8.610000000000014)
+   
+('XL : ', 118, '         XR : ', 480, '  X Location : ', 305)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1295)
+('SPEED : ', 8.640000000000013)
+   
+('XL : ', 122, '         XR : ', 481, '  X Location : ', 306)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.13799999999999998)
+('SPEED : ', 8.670000000000012)
+   
+('XL : ', 121, '         XR : ', 486, '  X Location : ', 311)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.08549999999999999)
+('SPEED : ', 8.700000000000012)
+   
+('XL : ', 143, '         XR : ', 486, '  X Location : ', 318)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.03)
+('SPEED : ', 8.730000000000011)
+   
+('XL : ', 148, '         XR : ', 486, '  X Location : ', 323)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0075)
+('SPEED : ', 8.76000000000001)
+   
+('XL : ', 150, '         XR : ', 486, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0095)
+('SPEED : ', 8.79000000000001)
+   
+('XL : ', 150, '         XR : ', 486, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0195)
+('SPEED : ', 8.82000000000001)
+   
+('XL : ', 151, '         XR : ', 486, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.008)
+('SPEED : ', 8.850000000000009)
+   
+('XL : ', 149, '         XR : ', 486, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.036)
+('SPEED : ', 8.880000000000008)
+   
+('XL : ', 147, '         XR : ', 486, '  X Location : ', 322)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.049)
+('SPEED : ', 8.910000000000007)
+   
+('XL : ', 130, '         XR : ', 486, '  X Location : ', 311)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.1655)
+('SPEED : ', 8.940000000000007)
+   
+('XL : ', 129, '         XR : ', 487, '  X Location : ', 312)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.09899999999999999)
+('SPEED : ', 8.970000000000006)
+   
+('XL : ', 129, '         XR : ', 487, '  X Location : ', 312)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.104)
+('SPEED : ', 9.000000000000005)
+   
+('XL : ', 128, '         XR : ', 491, '  X Location : ', 316)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.057999999999999996)
+('SPEED : ', 9.030000000000005)
+   
+('XL : ', 130, '         XR : ', 494, '  X Location : ', 319)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.043500000000000004)
+('SPEED : ', 9.060000000000004)
+   
+('XL : ', 130, '         XR : ', 494, '  X Location : ', 319)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0585)
+('SPEED : ', 9.090000000000003)
+   
+('XL : ', 127, '         XR : ', 495, '  X Location : ', 320)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.047)
+('SPEED : ', 9.120000000000003)
+   
+('XL : ', 140, '         XR : ', 513, '  X Location : ', 315)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.10950000000000001)
+('SPEED : ', 9.150000000000002)
+   
+('XL : ', 140, '         XR : ', 514, '  X Location : ', 315)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0845)
+('SPEED : ', 9.180000000000001)
+   
+('XL : ', 132, '         XR : ', 492, '  X Location : ', 317)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.06149999999999999)
+('SPEED : ', 9.21)
+   
+('XL : ', 134, '         XR : ', 493, '  X Location : ', 318)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.060000000000000005)
+('SPEED : ', 9.24)
+   
+('XL : ', 134, '         XR : ', 494, '  X Location : ', 319)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.053500000000000006)
+('SPEED : ', 9.27)
+   
+('XL : ', 134, '         XR : ', 494, '  X Location : ', 319)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0585)
+('SPEED : ', 9.299999999999999)
+   
+('XL : ', 134, '         XR : ', 494, '  X Location : ', 319)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0585)
+('SPEED : ', 9.329999999999998)
+   
+('XL : ', 139, '         XR : ', 496, '  X Location : ', 321)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0355)
+('SPEED : ', 9.359999999999998)
+   
+('XL : ', 147, '         XR : ', 517, '  X Location : ', 322)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.034)
+('SPEED : ', 9.389999999999997)
+   
+('XL : ', 147, '         XR : ', 517, '  X Location : ', 322)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.039)
+('SPEED : ', 9.419999999999996)
+   
+('XL : ', 149, '         XR : ', 517, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.016)
+('SPEED : ', 9.449999999999996)
+   
+('XL : ', 147, '         XR : ', 519, '  X Location : ', 322)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.049)
+('SPEED : ', 9.479999999999995)
+   
+('XL : ', 148, '         XR : ', 520, '  X Location : ', 323)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0275)
+('SPEED : ', 9.509999999999994)
+   
+('XL : ', 149, '         XR : ', 519, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.020999999999999998)
+('SPEED : ', 9.539999999999994)
+   
+('XL : ', 148, '         XR : ', 522, '  X Location : ', 323)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0375)
+('SPEED : ', 9.569999999999993)
+   
+('XL : ', 149, '         XR : ', 519, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.020999999999999998)
+('SPEED : ', 9.599999999999993)
+   
+('XL : ', 149, '         XR : ', 519, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 9.629999999999992)
+   
+('XL : ', 152, '         XR : ', 519, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0085)
+('SPEED : ', 9.659999999999991)
+   
+('XL : ', 153, '         XR : ', 521, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.005)
+('SPEED : ', 9.68999999999999)
+   
+('XL : ', 154, '         XR : ', 517, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0115)
+('SPEED : ', 9.71999999999999)
+   
+('XL : ', 152, '         XR : ', 518, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0165)
+('SPEED : ', 9.74999999999999)
+   
+('XL : ', 151, '         XR : ', 520, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.018)
+('SPEED : ', 9.779999999999989)
+   
+('XL : ', 152, '         XR : ', 521, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0014999999999999996)
+('SPEED : ', 9.809999999999988)
+   
+('XL : ', 154, '         XR : ', 524, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0165)
+('SPEED : ', 9.839999999999987)
+   
+('XL : ', 155, '         XR : ', 518, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.018)
+('SPEED : ', 9.869999999999987)
+   
+('XL : ', 155, '         XR : ', 518, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.013)
+('SPEED : ', 9.899999999999986)
+   
+('XL : ', 156, '         XR : ', 520, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0245)
+('SPEED : ', 9.929999999999986)
+   
+('XL : ', 155, '         XR : ', 521, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.008)
+('SPEED : ', 9.959999999999985)
+   
+('XL : ', 155, '         XR : ', 514, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.013)
+('SPEED : ', 9.989999999999984)
+   
+('XL : ', 153, '         XR : ', 514, '  X Location : ', 328)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.01)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 152, '         XR : ', 512, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0115)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 152, '         XR : ', 512, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 151, '         XR : ', 510, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.018)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 151, '         XR : ', 509, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.013)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 154, '         XR : ', 497, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0215)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 155, '         XR : ', 498, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.018)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 149, '         XR : ', 513, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.055999999999999994)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 151, '         XR : ', 508, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.002999999999999999)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 148, '         XR : ', 509, '  X Location : ', 323)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0475)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 146, '         XR : ', 508, '  X Location : ', 321)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0555)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 146, '         XR : ', 508, '  X Location : ', 321)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0455)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 145, '         XR : ', 508, '  X Location : ', 320)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.056999999999999995)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 145, '         XR : ', 511, '  X Location : ', 320)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.052)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 145, '         XR : ', 511, '  X Location : ', 320)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.052)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 149, '         XR : ', 511, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.005999999999999998)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 151, '         XR : ', 517, '  X Location : ', 326)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.002999999999999999)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 155, '         XR : ', 515, '  X Location : ', 330)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.033)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 158, '         XR : ', 516, '  X Location : ', 333)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0475)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 158, '         XR : ', 519, '  X Location : ', 333)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0325)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 160, '         XR : ', 517, '  X Location : ', 335)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0555)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 159, '         XR : ', 514, '  X Location : ', 334)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.034)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 156, '         XR : ', 514, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0045000000000000005)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 156, '         XR : ', 514, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 156, '         XR : ', 512, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 154, '         XR : ', 513, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0035000000000000005)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 154, '         XR : ', 507, '  X Location : ', 329)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0065)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 152, '         XR : ', 508, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0165)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 149, '         XR : ', 508, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.040999999999999995)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 149, '         XR : ', 508, '  X Location : ', 324)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.026)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 153, '         XR : ', 499, '  X Location : ', 324)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.026)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 152, '         XR : ', 498, '  X Location : ', 323)
+('L_flag : ', False, '   R_flag : ', True)
+('STEER : ', 0.0375)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 150, '         XR : ', 501, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0095)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 150, '         XR : ', 506, '  X Location : ', 325)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0195)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 152, '         XR : ', 511, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0035000000000000005)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 152, '         XR : ', 511, '  X Location : ', 327)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', 0.0065)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 156, '         XR : ', 510, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0395)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 156, '         XR : ', 513, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 156, '         XR : ', 512, '  X Location : ', 331)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER : ', -0.0195)
+('SPEED : ', 10.019999999999984)
+   
+('XL : ', 157, '         XR : ', 511, '  X Location : ', 332)
+('L_flag : ', True, '   R_flag : ', False)
+('STEER[0m[ INFO] [1600881510.676488256]: using default calibration URL[0m
+[0m[ INFO] [1600881510.676800096]: camera calibration URL: file:///home/nvidia/.ros/camera_info/head_camera.yaml[0m
+[0m[ INFO] [1600881510.683136288]: Starting 'head_camera' (/dev/videoCAM) at 640x480 via mmap (yuyv) at 30 FPS[0m
+[33m[ WARN] [1600881511.667639840]: unknown control 'focus_auto'
+[0m
+... logging to /home/nvidia/.ros/log/cb562afe-fdc0-11ea-9d0a-4e0ff4d1c612/roslaunch-tegra-ubuntu-4831.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/nvidia/xycar_ws/src/race/launch/drive.launch
+[1mstarted roslaunch server http://localhost:38734/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+ * /speed_to_erpm_gain: 4614
+ * /speed_to_erpm_offset: 0.0
+ * /steering_angle_to_servo_gain: -1.2135
+ * /steering_angle_to_servo_offset: 0.455
+ * /usb_cam/autoexposure: True
+ * /usb_cam/camera_frame_id: usb_cam
+ * /usb_cam/exposure: 20
+ * /usb_cam/image_height: 480
+ * /usb_cam/image_width: 640
+ * /usb_cam/io_method: mmap
+ * /usb_cam/pixel_format: yuyv
+ * /usb_cam/video_device: /dev/videoCAM
+ * /vesc_driver/brake_max: 0.0
+ * /vesc_driver/brake_min: 0.0
+ * /vesc_driver/current_max: 0.0
+ * /vesc_driver/current_min: 0.0
+ * /vesc_driver/duty_cycle_max: 0.0
+ * /vesc_driver/duty_cycle_min: 0.0
+ * /vesc_driver/port: /dev/ttyVESC
+ * /vesc_driver/position_max: 0.0
+ * /vesc_driver/position_min: 0.0
+ * /vesc_driver/servo_max: 0.85
+ * /vesc_driver/servo_min: 0.15
+ * /vesc_driver/speed_max: 5000
+ * /vesc_driver/speed_min: -2000
+ * /vesc_to_odom/publish_tf: True
+ * /xycar_motor_a2/angle_offset: 0
+
+NODES
+  /
+    ackermann_to_vesc (vesc_ackermann/ackermann_to_vesc_node)
+    auto_drive (race/only_drive.py)
+    usb_cam (usb_cam/usb_cam_node)
+    vesc_driver (vesc_driver/vesc_driver_node)
+    xycar_motor_a2 (xycar_motor/xycar_motor_a2.py)
+
+auto-starting new master
+[1mprocess[master]: started with pid [4841][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/nvidia/xycar_ws/src/race/launch/drive.launch http://localhost:11311
+[1msetting /run_id to cb562afe-fdc0-11ea-9d0a-4e0ff4d1c612[0m
+[1mprocess[rosout-1]: started with pid [4854][0m
+started core service [/rosout]
+[1mprocess[ackermann_to_vesc-2]: started with pid [4871][0m
+[1mprocess[vesc_driver-3]: started with pid [4872][0m
+[1mprocess[xycar_motor_a2-4]: started with pid [4885][0m
+[1mprocess[usb_cam-5]: started with pid [4908][0m
+[1mprocess[auto_drive-6]: started with pid [4918][0m
+[auto_drive-6] killing on exit
+[usb_cam-5] killing on exit
+[vesc_driver-3] killing on exit
+[xycar_motor_a2-4] killing on exit
+[ackermann_to_vesc-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

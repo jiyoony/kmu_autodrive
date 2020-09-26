@@ -8,19 +8,17 @@ class Warper:
 		w = 640
 		# distort scr to dst
 		src = np.float32([
-		    [100,320],
-		    [-80,400],
-		    [715,400],
-		    [544,320],
+		    [0, 320],
+		    [0, 410],
+		    [w, 320],
+		    [w, 410],
 		])
 		dst = np.float32([
-		    [0,0],
-		    [50,h - 20],
-		    [w-70 , h - 20],
-		    [w , 0],
+		    [-10,0],
+		    [150, h], #200
+		    [w, 0],
+		    [w-150, h], #-200
 		])
-	    
-
 		self.M = cv2.getPerspectiveTransform(src, dst)
 		self.Minv = cv2.getPerspectiveTransform(dst, src)
 

@@ -119,8 +119,12 @@ def process_img(img):
 	kernel = np.ones((3, 3),np.uint8)
 	edges_img = cv2.Canny(np.uint8(blur_gray), low_threshold, high_threshold)
 	warped = warper.warp(edges_img)
+	roi = warped[300:500,:]
+	#cv2.imshow('a',roi)
+	#cv2.waitKey(1)
+	nonzero = roi.nonzero()[0]
+	print(len(nonzero))
 	warped_2 = warper.warp(img)
-	roi = warped[150:450, :]
 	h_slide_img,x_location= slidewindow.slidewindow(warped)
 	#stop_flag = 0
 	return h_slide_img, x_location,warped
@@ -173,13 +177,18 @@ def main():
 	p_old_time = 0
 	p_now_time = 0
 	park_mode = 2
+	stop_old_time = 0
 	rospy.init_node('autodrive',anonymous=True)
 	pub = rospy.Publisher('/xycar_motor', xycar_motor, queue_size=1)
 	image_sub = rospy.Subscriber("/usb_cam/image_raw",Image,img_callback)
 	obstacle_sub = rospy.Subscriber("/obstacles", Obstacles, obstacle_callback, queue_size = 1)
 	while time.time()-start_time <3:
 		auto_drive(0,0)
-	car_run_speed = 8
+	s_old_time = time.time()
+	while time.time()-s_old_time <1:
+		auto_drive(0,8)
+		print("speed 8")
+	car_run_speed = 10.5
 	#car_run_speed = 0
 	while not rospy.is_shutdown():
 		print('fuck_cnt :', curve.fuck)
@@ -190,7 +199,7 @@ def main():
 		#p_now_time = time.time()
 		#if (p_now_time - p_old_time > 12.9):
 		#	park_mode = 1
-		'''
+		
 		if park_mode == 1:
 			steer, car_run_speed = parking.execute(obstacles)
 			auto_drive(steer,car_run_speed)
@@ -199,10 +208,14 @@ def main():
 				car_run_speed = 5
 				process_Img, x_location,warp = process_img(cv_image)
 				steer = pid.pid_control(x_location)
-				auto_drive(steer,car_run_speed)	
+				auto_drive(steer,car_run_speed)
+				p_now_time = time.time()
+				if(p_old_time == 0):
+					p_old_time = time.time()
+				if(p_now_time - p_old_time > 15):
+					park_mode = 1
+					
 		else:
-		'''
-		if True:
 			if cv_image is not None:
 				process_Img, x_location,warp = process_img(cv_image)
 				steer = pid.pid_control(x_location)
@@ -239,26 +252,42 @@ def main():
 					car_run_speed = 7
 					curve.list_update(steer)
 					curve.count_curve()
-				elif curve.curve_count >= 5:
+					roi = warp[300:500, :]
+					nonzero = roi.nonzero()[0]
+					print(len(nonzero))
+					if len(nonzero) > 14000:
+						print('STOP!!')
+						auto_drive(0, 0)
+						if stop_old_time == 0:
+							stop_old_time = time.time()
+						if (time.time() - stop_old_time) > 5:
+							curve.curve_count += 1
+						else:
+							auto_drive(0,0)
+						print('GO')
+						curve.curve_count += 1
+
+				elif curve.curve_count >= 6:
 					curve.curve_count = 0
 					avoid.mode = 0
 					avoid.flag = 0
 					avoid.steer = 0
 					avoid.old = 0
-					car_run_speed =8
+					car_run_speed =10.5
 					avoid.now = 0
+					stop_old_time = 0
 					avoid.Isflag = False
 					lab_cnt +=1
 					curve.initFlag = True
 					curve.initTime_old = time.time()
 				else:
-					car_run_speed = 8
+					car_run_speed = 9
 					curve.list_update(steer)
 					curve.count_curve()
 
 
-				#if lab_cnt == 3:
-				#	park_mode = 1
+				if lab_cnt == 3 and time.time() - curve.initTime_old > 7.5:
+					park_mode = 0
 				#print('curve`s sum',abs(sum(curve.pid_list)))
 				#print("pid_steer : ", steer)
 				#print(x_location)

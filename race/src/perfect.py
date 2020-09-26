@@ -5,6 +5,7 @@ import numpy as np
 import roslib
 import sys
 import sensor_msgs.msg
+from obstacle_detector.msg import Obstacles
 from cv_bridge import CvBridge, CvBridgeError
 from xycar_motor.msg import xycar_motor
 from sensor_msgs.msg import Image
@@ -14,35 +15,29 @@ import rospy, rospkg
 import genpy.message
 import sensor_msgs.msg
 from rosservice import ROSServiceException
-#from slidewindow import SlideWindow
 from warper import Warper
 from pid import PidCal
-#import camtest
-#import signal
-#from edit_slide_ver2 import SlideWindow
-#from slide_hyunjoon import SlideWindow
-#from slide_SY import SlideWindow
+from curveDetector import CurveDetector
 from sub_edit_slide_ver2 import SlideWindow
+
 cv_image = None
 obstacles = None
 ack_publisher = None
 car_run_speed =10
-#ar_tag_Cnt = 0
 pub = None
 old_time = 0
 slidewindow = SlideWindow()
 warper = Warper()
 bridge = CvBridge()
 pid = PidCal()
-
+curve = CurveDetector()
 
 
 def img_callback(data):
 	global cv_image
 	try:
-		cv_image = bridge.imgmsg_to_cv2(data, "bgr8")
-
-		#cv_image = cv2.resize(tmp, (640,480))
+		tmp = bridge.imgmsg_to_cv2(data, "bgr8")
+		cv_image = cv2.resize(tmp,(640,480))
 	except CvBridgeError as e:
 		print(e)
 
@@ -61,17 +56,13 @@ def process_img(img):
 	kernel = np.ones((3, 3),np.uint8)
 	edges_img = cv2.Canny(np.uint8(blur_gray), low_threshold, high_threshold)
 	warped = warper.warp(edges_img)
-	#ret, thr = cv2.threshold(warped, 100,255,cv2.THRESH_BINARY)
-	#cv2.imshow('warped',thr)
-	#ret, x_left,x_right, w_slide_img, flag = slidewindow.w_slidewindow(warped)
 	h_slide_img,x_location= slidewindow.slidewindow(warped)
-	#out_img, steer,centerY,x_left,x_right= slidewindow.slidewindow(thr)
-	#out_img= slidewindow.slidewindow(warped)
-	#if abs(old_steer - steer) > 0.2:
-	#	steer = old_steer
-	#cv2.imshow('slide result', h_slide_img)
-	#cv2.waitKey(1)
 	return h_slide_img, x_location#, centerY, x_left, x_right
+
+
+def obstacle_callback(data):	
+	global obstacles
+	obstacles = data
 def auto_drive(steer,speed):
 	global pub
 	#motor global??
@@ -164,19 +155,28 @@ def main():
 	rospy.init_node('autodrive',anonymous=True)
 	pub = rospy.Publisher('/xycar_motor', xycar_motor, queue_size=1)
 	image_sub = rospy.Subscriber("/usb_cam/image_raw",Image,img_callback)
+	obstacle_sub = rospy.Subscriber("/obstacles", Obstacles, obstacle_callback, queue_size = 1)
 	while time.time()-start_time <3:
 		auto_drive(0,0)
-	#rospy.sleep(3)
-	speed = 5
+	speed =19
 	while not rospy.is_shutdown():	
 	
 		if cv_image is not None:
-
-			#cv2.imshow('a', cv_image)
-			#thr, process_Img, steer, centerY, x_left, x_right = process_img(cv_image)
+			
 			process_Img, x_location= process_img(cv_image)
 			steer = pid.pid_control(x_location)
+			curve.list_update(steer)
+			curve.count_curve()
 			print("STEER : ",steer)
+			print("count_curve", curve.curve_count)
+			
+			#if curve.curve_count ==1:
+			#	if speed < 8:
+			#		speed +=0.2
+			#if curve.curve_count == 2:
+			#	speed = 6
+				
+			#print('curve`s sum',abs(sum(curve.pid_list)))
 			#print("pid_steer : ", steer)
 			#print(x_location)
 			#warp_Img = warper.warp(cv_image)
@@ -185,8 +185,8 @@ def main():
 			#cv2.imshow('cv_image', process_Img)
 			#cv2.waitKey(1)
 			auto_drive(steer,speed)
-			if speed < 10:
-				speed +=0.1
+			#if speed < 10:
+			#	speed +=0.1
 	
 	#cap.release()
 	cv2.destroyAllWindows()
